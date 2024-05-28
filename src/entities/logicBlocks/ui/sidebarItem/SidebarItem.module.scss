@@ -1,0 +1,15 @@
+.item {
+    border-radius: var(--border-radius-second);
+    width: 240px;
+    height: 42px;
+    background-color: var(--white);
+    padding: 12px;
+    cursor: pointer;
+    transition: all .1s;
+
+
+    &.active {
+        background-color: var(--green);
+        color: var(--white);
+    }
+}
